@@ -70,14 +70,16 @@
             <br>
 
             <div class="col-sm-12" id="contact-form-container">
-                <form class="form-inline" id="signup-form">
+                <form method="post" action="/signup" class="form-inline" id="contact-form">
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Namey McName">
+                        <input type="text" class="form-control" id="name" name="visitorName"
+                               placeholder="Namey McName" method="post" action="/signup">
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" class="form control" id="email" placeholder="Namey@peterspizza.com">
+                        <input type="email" class="form control" id="email" name="visitorEmail"
+                               placeholder="Namey@peterspizza.com">
                     </div>
                     <button type="submit" style="padding: 4px 10px;" class="btn btn-primary">Sign Up</button>
                 </form>
