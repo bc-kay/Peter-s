@@ -25,7 +25,8 @@ app.post('/signup', function(request, response){
 });
 
 
-app.listen(8000, function () {
-    console.log("Server started");
+app.listen((process.env.PORT || 8000), function () {
+    console.log('Started server on port' + (process.env.PORT || 8000));
 });
+
 
