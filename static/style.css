@@ -85,4 +85,9 @@ body {
     margin-right: 15px
 }
 
-.hidden-print
+.circled {
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+
+}
