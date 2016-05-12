@@ -1,0 +1,29 @@
+{
+  "name": "Programming",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "ya-csv": "^0.9.4"
+  },
+  "devDependencies": {},
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bc-kay/Peter-s.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bc-kay/Peter-s/issues"
+  },
+  "homepage": "https://github.com/bc-kay/Peter-s#readme",
+  "description": ""
+}
